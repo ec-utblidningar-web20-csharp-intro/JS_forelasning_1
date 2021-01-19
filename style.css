@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-image: url("heroes3image"), url("https://www.pcgamesn.com/wp-content/uploads/2020/09/heroes-of-might-and-magic-3-hd-InGame.jpg");
+    background-color: #cccccc;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    font-size: 28px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.mullemeck{
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+}
+
+#mulle {
+    border: 1px white solid;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease background-color;
+     transition-property: background-color, color;
+     
+     font-size: 20px;
+     padding: 5px;
+     margin: 10px;
+}
+
+#mulle:hover 
+{
+    color: white;
+    background-color: crimson;
+    border-color: crimson;
+    border-radius: 12px;
+}
+
+.björn-section {
+    background: green;
+}
+ 
+
+ .björnbäst{
+    text-align: center;
+    padding-top: 3rem;
+ }
+
+ #words {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 100px;
+    color: crimson;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px black;
+}
