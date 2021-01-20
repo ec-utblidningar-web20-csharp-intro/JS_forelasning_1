@@ -6,13 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eddie Blommis</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+    <script>
+        // kommentarer som i C#
+        /* block-comments finns ju med */
+
+        /* i C# land
+        string kund = "Örjan";
+        */
+        kund = "Örjan";
+
+        // ... här händer tusen rader kod
+
+        /* i C# land
+        class Customer{
+            public int id;
+            public string name;
+        }
+        Customer kund = new Customer() { id=112355, name="Torbjörn"};
+        */
+        kund = { id:112355, name:"Torbjörn" };
+
+        // .. mer kod händer och vi ska komma åt kundnamnet
+        /* i C# land
+        MessageBox.Show("ojojojoj nåt hände", "ajajaj");
+        */
+        //alert(kund + ", du kan inte göra så!");
+
+        /*
+        Om koden är gömd och sällan körs så 
+        kommer buggarna den bär på ligga gömda 
+        tills en stackars kund stöter på dem
+        en vacker dag istället
+
+       if(someRareSituation){
+            alert(kund + ", du kan inte göra så!");
+       }else{
+            // någon annan vanligare kod.
+       }
+       */
+       console.log(kund + ", du kan inte göra så!");
+    </script>
 </head>
 
 <body>
-    <p>In VS Code, set liveshare.anonymousGuestApproval in settings.json (File > Preferences > Settings) to accept,
+    <button onclick="console.error(kund + ', du kan inte göra så!');"></button>
+    <p id="para">In VS Code, set liveshare.anonymousGuestApproval in settings.json (File > Preferences > Settings) to accept,
         reject, or prompt (the default) as appropriate. In Visual Studio, set Tools > Options > Live Share > "Anonymous
         guest approval" to Accept, Reject, or Prompt (the default) as appropriate. </p>
-
 </body>
-
 </html>
